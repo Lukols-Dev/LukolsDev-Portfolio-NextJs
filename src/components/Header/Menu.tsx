@@ -12,7 +12,7 @@ const Menu = () => {
           <Magnetic>
             <li
               key={item.title}
-              className="group flex flex-col relative p-4  bg-red-400"
+              className="group flex flex-col relative p-4  bg-transparent"
             >
               <Link href={item.path}>
                 <ShuffleLetters text={item.title} />

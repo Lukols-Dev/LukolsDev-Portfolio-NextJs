@@ -16,3 +16,18 @@ export const MENU = [
     path: "/blog",
   },
 ];
+
+export const SOCIAL = [
+  {
+    title: "linkedin",
+    path: "https://www.linkedin.com/in/lukols/",
+  },
+  {
+    title: "github",
+    path: "https://github.com/Lukols-Dev",
+  },
+  {
+    title: "instagram",
+    path: "https://github.com/Lukols-Dev",
+  },
+];

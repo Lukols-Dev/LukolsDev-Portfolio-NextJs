@@ -4,5 +4,11 @@
 
 body {
   margin: 0px;
-  overflow: hidden; /* Hide scrollbars */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  overflow-y: scroll; /* Add vertical scrolling if needed */
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
