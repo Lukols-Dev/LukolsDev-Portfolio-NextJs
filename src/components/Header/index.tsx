@@ -20,7 +20,7 @@ const Header = () => {
     gsap.to(element, {
       scrollTrigger: {
         trigger: document.body,
-        start: "top+=200",
+        start: "top+=300",
         end: "bottom top",
         toggleActions: "play none none none",
         onEnter: () => {
